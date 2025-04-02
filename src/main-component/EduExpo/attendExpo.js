@@ -16,7 +16,7 @@ const WhyAttendExpo = (props) => {
                         <div className="about__content">
                             <ul className="about-list ul_li list-unstyled">
                                 <li className='mx-2'>
-                                    <div className="xb-item--inner py-3 md:py-[2.5rem]">
+                                    <div className="xb-item--inner py-3 md:py-[2.5rem] border border-gray-300">
                                         <div className="xb-item--number">1</div>
                                         <div className="xb-item--holder">
                                             <h3 className=" mb-2 text-[1.3rem] sm:text-2xl">Meet University Representatives</h3>
@@ -27,7 +27,7 @@ const WhyAttendExpo = (props) => {
                                     </div>
                                 </li>
                                 <li className='mx-2'>
-                                    <div className="xb-item--inner py-3 md:py-[2.5rem]">
+                                    <div className="xb-item--inner py-3 md:py-[2.5rem] border border-gray-300">
                                         <div className="xb-item--number color-2">2</div>
                                         <div className="xb-item--holder">
                                             <h3 className="mb-2 text-[1.3rem] sm:text-2xl"> Free Profile Evaluation</h3>
@@ -38,7 +38,7 @@ const WhyAttendExpo = (props) => {
                                     </div>
                                 </li>
                                 <li className='mx-2'>
-                                    <div className="xb-item--inner py-3 md:py-[2.5rem]">
+                                    <div className="xb-item--inner py-3 md:py-[2.5rem] border border-gray-300">
                                         <div className="xb-item--number color-3">3</div>
                                         <div className="xb-item--holder">
                                             <h3 className="mb-2 text-[1.3rem] sm:text-2xl">Visa & Immigration Guidance</h3>
@@ -49,7 +49,7 @@ const WhyAttendExpo = (props) => {
                                     </div>
                                 </li>
                                 <li className='mx-2'>
-                                    <div className="xb-item--inner py-4 md:py-[2.5rem]">
+                                    <div className="xb-item--inner py-4 md:py-[2.5rem] border border-gray-300">
                                         <div className="xb-item--number color-4">4</div>
                                         <div className="xb-item--holder">
                                             <h3 className="mb-2 text-[1.3rem] sm:text-2xl">Live Career Counseling</h3>
@@ -60,7 +60,7 @@ const WhyAttendExpo = (props) => {
                                     </div>
                                 </li>
                                 <li className='mx-2'>
-                                    <div className="xb-item--inner py-4 md:py-[2.5rem]">
+                                    <div className="xb-item--inner py-4 md:py-[2.5rem] border border-gray-300">
                                         <div className="xb-item--number color-5">5</div>
                                         <div className="xb-item--holder">
                                             <h3 className="mb-2 text-[1.3rem] sm:text-2xl">Scholarship & Financial Aid Info</h3>

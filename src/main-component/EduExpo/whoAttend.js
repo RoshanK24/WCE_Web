@@ -9,10 +9,10 @@ import eImg3 from '../../images/icon/teacher.svg'
 
 const WhoShouldAttend = () => {
     return (
-        <div className='container'><h3>Why choose us?</h3>
+        <div className='container'><h3>Who Should Attend?</h3>
             <div className="single-content__feature ul_li">
                 <div className="single-content-feature">
-                    <div className="xb-item--inner ul_li flex">
+                    <div className="xb-item--inner ul_li flex  border border-gray-300">
                         <div className="xb-item--icon">
                             <img src={eImg} alt="" />
                         </div>
@@ -20,7 +20,7 @@ const WhoShouldAttend = () => {
                     </div>
                 </div>
                 <div className="single-content-feature">
-                    <div className="xb-item--inner color-2 ul_li">
+                    <div className="xb-item--inner color-2  border border-gray-300">
                         <div className="xb-item--icon">
                             <img src={eImg2} alt="" />
                         </div>
@@ -28,13 +28,13 @@ const WhoShouldAttend = () => {
                     </div>
                 </div>
                 <div className="single-content-feature">
-                    <div className="xb-item--inner color-3 ul_li">
+                    <div className="xb-item--inner color-3 ul_li  border border-gray-300">
                         <div className="xb-item--icon">
                             <img src={eImg3} alt="" />
                         </div>
                         <h3 className="xb-item--title">Students & parents seeking expert guidance on admissions & visa procedures.</h3>
                     </div>
-                </div> 
+                </div>
             </div></div>
     )
 }

@@ -106,7 +106,7 @@ const CountrySection = (props) => {
                         <div className="xb-country ul_li">
                             {CountryList.slice(0, 12).map((country, cnt) => (
                                 <div className="xb-item--item" key={cnt}>
-                                    <Link onClick={ClickHandler} to={`/country-single/${country.slug}`} className="xb-item--inner ul_li">
+                                    <div className="xb-item--inner ul_li">
                                         <div className='flex flex-col sm:flex-row sm:items-center '>
                                             <div className="xb-item--flag">
                                                 <img src={country.sIcon} alt="" />
@@ -114,7 +114,7 @@ const CountrySection = (props) => {
                                             <h3 className="xb-item--title">{country.title}</h3>
                                         </div>
 
-                                    </Link>
+                                    </div>
                                 </div>
                             ))}
                         </div>
@@ -123,14 +123,14 @@ const CountrySection = (props) => {
                         <div className="xb-country ul_li">
                             {CountryList.slice(2, 14).map((country, cnt) => (
                                 <div className="xb-item--item" key={cnt}>
-                                    <Link onClick={ClickHandler} to={`/country-single/${country.slug}`} className="xb-item--inner ul_li">
+                                    <div className="xb-item--inner ul_li">
                                         <div className='flex flex-col sm:flex-row sm:items-center '>
                                             <div className="xb-item--flag">
                                                 <img src={country.sIcon} alt="" />
                                             </div>
                                             <h3 className="xb-item--title">{country.title}</h3>
                                         </div>
-                                    </Link>
+                                    </div>
                                 </div>
                             ))}
                         </div>
@@ -139,14 +139,14 @@ const CountrySection = (props) => {
                         <div className="xb-country ul_li">
                             {CountryList.slice(4, 16).map((country, cnt) => (
                                 <div className="xb-item--item" key={cnt}>
-                                    <Link onClick={ClickHandler} to={`/country-single/${country.slug}`} className="xb-item--inner ul_li">
+                                    <div className="xb-item--inner ul_li">
                                         <div className='flex flex-col sm:flex-row sm:items-center '>
                                             <div className="xb-item--flag">
                                                 <img src={country.sIcon} alt="" />
                                             </div>
                                             <h3 className="xb-item--title">{country.title}</h3>
                                         </div>
-                                    </Link>
+                                    </div>
                                 </div>
                             ))}
                         </div>
@@ -155,14 +155,14 @@ const CountrySection = (props) => {
                         <div className="xb-country ul_li">
                             {CountryList.slice(6, 18).map((country, cnt) => (
                                 <div className="xb-item--item" key={cnt}>
-                                    <Link onClick={ClickHandler} to={`/country-single/${country.slug}`} className="xb-item--inner ul_li">
+                                    <div className="xb-item--inner ul_li">
                                         <div className='flex flex-col sm:flex-row sm:items-center '>
                                             <div className="xb-item--flag">
                                                 <img src={country.sIcon} alt="" />
                                             </div>
                                             <h3 className="xb-item--title">{country.title}</h3>
                                         </div>
-                                    </Link>
+                                    </div>
                                 </div>
                             ))}
                         </div>
@@ -171,14 +171,14 @@ const CountrySection = (props) => {
                         <div className="xb-country ul_li">
                             {CountryList.slice(0, 12).map((country, cnt) => (
                                 <div className="xb-item--item" key={cnt}>
-                                    <Link onClick={ClickHandler} to={`/country-single/${country.slug}`} className="xb-item--inner ul_li">
+                                    <div className="xb-item--inner ul_li">
                                         <div className='flex flex-col sm:flex-row sm:items-center '>
                                             <div className="xb-item--flag">
                                                 <img src={country.sIcon} alt="" />
                                             </div>
                                             <h3 className="xb-item--title">{country.title}</h3>
                                         </div>
-                                    </Link>
+                                    </div>
                                 </div>
                             ))}
                         </div>
@@ -187,14 +187,14 @@ const CountrySection = (props) => {
                         <div className="xb-country ul_li">
                             {CountryList.slice(2, 14).map((country, cnt) => (
                                 <div className="xb-item--item" key={cnt}>
-                                    <Link onClick={ClickHandler} to={`/country-single/${country.slug}`} className="xb-item--inner ul_li">
+                                    <div className="xb-item--inner ul_li">
                                         <div className='flex flex-col sm:flex-row sm:items-center '>
                                             <div className="xb-item--flag">
                                                 <img src={country.sIcon} alt="" />
                                             </div>
                                             <h3 className="xb-item--title">{country.title}</h3>
                                         </div>
-                                    </Link>
+                                    </div>
                                 </div>
                             ))}
                         </div>
@@ -203,14 +203,14 @@ const CountrySection = (props) => {
                         <div className="xb-country ul_li">
                             {CountryList.slice(4, 16).map((country, cnt) => (
                                 <div className="xb-item--item" key={cnt}>
-                                    <Link onClick={ClickHandler} to={`/country-single/${country.slug}`} className="xb-item--inner ul_li">
+                                    <div className="xb-item--inner ul_li">  {/* onClick={ClickHandler} to={`/country-single/${country.slug}`} */}
                                         <div className='flex flex-col sm:flex-row sm:items-center '>
                                             <div className="xb-item--flag">
                                                 <img src={country.sIcon} alt="" />
                                             </div>
                                             <h3 className="xb-item--title">{country.title}</h3>
                                         </div>
-                                    </Link>
+                                    </div>
                                 </div>
                             ))}
                         </div>
