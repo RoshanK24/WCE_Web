@@ -27,16 +27,16 @@ const ExpoRegistration = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
+        // console.log('Form submitted:', formData);
 
         try {
-            const response = await axios.post('https://api.aagyo.in/api/v1/eduexpo/registration', formData, {
+            const response = await axios.post('http://localhost:8080/api/v1/eduexpo/registration', formData, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
             });
 
-            console.log('API Response:', response.data);
+            // console.log('API Response:', response.data);
 
             if (response.data.success) {
                 // Store the registration data and QR code

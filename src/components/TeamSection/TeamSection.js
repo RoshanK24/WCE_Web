@@ -1,18 +1,18 @@
 import React from 'react';
 // import Teams from '../../api/team'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Slider from 'react-slick';
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
-import timg1 from '../../images/team/1.png'
-import timg2 from '../../images/team/2.png'
-import timg3 from '../../images/team/3.png'
-import timg4 from '../../images/team/4.png'
-import timg5 from '../../images/team/5.png'
+import timg1 from '../../images/teams/1.png'
+import timg2 from '../../images/teams/2.png'
+import timg3 from '../../images/teams/3.png'
+import timg4 from '../../images/teams/4.png'
+import timg5 from '../../images/teams/5.png'
 
 const TeamSection = (props) => {
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
+    // const ClickHandler = () => {
+    //     window.scrollTo(10, 0);
+    // }
 
     const settings = {
         dots: false,
@@ -119,22 +119,22 @@ const TeamSection = (props) => {
                                         <Slider ref={slider} {...settings}>
                                             {teams.slice(0, 6).map((team, tm) => (
                                                 <div className="col-xl-3 col-lg-4 col-md-6 mt-30 flex justify-center" key={tm}>
-                                                    <div className="xb-team text-center">
-                                                        <div className="xb-item--inner" data-parallax='{"scale" : 1}'>
+                                                    {/* <div className="xb-team text-center"> */}
+                                                        {/* <div className="xb-item--inner" data-parallax='{"scale" : 1}'> */}
                                                             <div className="xb-item--img">
                                                                 <img src={team.tImg} alt="" />
                                                             </div>
-                                                            <div className="xb-item--holder">
+                                                            {/* <div className="xb-item--holder">
                                                                 <h3 className="xb-item--name"><Link onClick={ClickHandler} to={`/team-single/${team.slug}`}>{team.name}</Link></h3>
                                                                 <span className="xb-item--designation">{team.title}</span>
-                                                            </div>
+                                                            </div> */}
                                                             {/* <ul className="xb-item--social list-unstyled">
                                                                 <li><Link onClick={ClickHandler} to={`/team-single/${team.slug}`}><i className="fab fa-twitter"></i></Link></li>
                                                                 <li><Link onClick={ClickHandler} to={`/team-single/${team.slug}`}><i className="fab fa-linkedin-in"></i></Link></li>
                                                                 <li><Link onClick={ClickHandler} to={`/team-single/${team.slug}`}><i className="fab fa-facebook-f"></i></Link></li>
                                                             </ul> */}
-                                                        </div>
-                                                    </div>
+                                                        {/* </div> */}
+                                                    {/* </div> */}
                                                 </div>
                                             ))}
                                         </Slider>
