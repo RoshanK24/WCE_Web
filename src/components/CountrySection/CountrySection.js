@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import CountryList from '../../api/country'
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
-import { Link } from "react-router-dom";
 
 
 
@@ -15,9 +14,9 @@ const CountrySection = (props) => {
         if (activeTab !== tab) setActiveTab(tab);
     }
 
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
+    // const ClickHandler = () => {
+    //     window.scrollTo(10, 0);
+    // }
 
 
     return (
