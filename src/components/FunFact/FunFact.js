@@ -64,7 +64,7 @@ const FunFactSection = (props) => {
                     <div className="col-lg-12">
                         <div className="xb-counter w-full flex flex-wrap">
                             {FunFact.map((funfact, fitem) => (
-                                fitem == 3 ? <div className={`xb-item--item w-1/2 p-4 sm:flex sm:flex-shrink-0 ${funfact.style}`} key={fitem}>
+                                fitem === 3 ? <div className={`xb-item--item w-1/2 p-4 sm:flex sm:flex-shrink-0 ${funfact.style}`} key={fitem}>
                                     <div className="xb-item--icon mt-1 sm:mt-[20px] h-20 w-20 sm:h-24 sm:w-24 sm:min-w-24">
                                         <img src={funfact.icon} alt="" />
                                     </div>

@@ -30,7 +30,7 @@ const ExpoRegistration = () => {
         // console.log('Form submitted:', formData);
 
         try {
-            const response = await axios.post('https://api.aagyo.in/api/v1/eduexpo/registration', formData, {
+            const response = await axios.post('http://localhost:8080/api/v1/eduexpo/registration', formData, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
@@ -163,7 +163,7 @@ const ExpoRegistration = () => {
                             required
                             rows="3"
                             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
-                            placeholder="Your answer"
+                            placeholder="Enter your address"
                         />
                     </div>
 
@@ -175,10 +175,11 @@ const ExpoRegistration = () => {
                             type="email"
                             id="email"
                             name="email"
+                            required= {false}
                             value={formData.email}
                             onChange={handleChange}
                             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
-                            placeholder="Your answer"
+                            placeholder="Enter your email (optional)"
                         />
                     </div>
 

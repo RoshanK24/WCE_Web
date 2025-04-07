@@ -7,23 +7,23 @@ import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 
 
-const testimonial = [
-    {
-        id: '01',
-        Des: "From start to finish, evisa made my visa application a breeze.Their expertise and friendly guidance turned a complex process into a walk in the park. Grateful for their seamless service!",
-        Title: 'Goladria Gomez',
-    },
-    {
-        id: '02',
-        Des: "From start to finish, evisa made my visa application a breeze.Their expertise and friendly guidance turned a complex process into a walk in the park. Grateful for their seamless service!",
-        Title: 'Adam Pedro',
-    },
-    {
-        id: '03',
-        Des: "From start to finish, evisa made my visa application a breeze.Their expertise and friendly guidance turned a complex process into a walk in the park. Grateful for their seamless service!",
-        Title: 'Alkira Jemin',
-    }
-]
+// const testimonial = [
+//     {
+//         id: '01',
+//         Des: "From start to finish, evisa made my visa application a breeze.Their expertise and friendly guidance turned a complex process into a walk in the park. Grateful for their seamless service!",
+//         Title: 'Goladria Gomez',
+//     },
+//     {
+//         id: '02',
+//         Des: "From start to finish, evisa made my visa application a breeze.Their expertise and friendly guidance turned a complex process into a walk in the park. Grateful for their seamless service!",
+//         Title: 'Adam Pedro',
+//     },
+//     {
+//         id: '03',
+//         Des: "From start to finish, evisa made my visa application a breeze.Their expertise and friendly guidance turned a complex process into a walk in the park. Grateful for their seamless service!",
+//         Title: 'Alkira Jemin',
+//     }
+// ]
 
 const Testimonial = () => {
 

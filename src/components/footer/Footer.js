@@ -2,7 +2,7 @@ import React from 'react'
 // import { Link } from 'react-router-dom'
 import icon1 from '../../images/icon/f_call.svg'
 import icon2 from '../../images/icon/f_mail.svg'
-import icon3 from '../../images/icon/card_img.png'
+// import icon3 from '../../images/icon/card_img.png'
 // import Services from '../../api/service'
 // import CountryList from '../../api/country'
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Bg from '../../images/bg/eduexpoBg3.jpg'
 
 // import hero1 from '../../images/hero/img_01.png'
-import shape1 from '../../images/icon/h_star.png'
+// import shape1 from '../../images/icon/h_star.png'
 // import shape2 from '../../images/icon/arrow_right.svg'
 import { Slide } from "react-awesome-reveal";
 import eduExpologo from '../../images/logo/eduexpo2.png';

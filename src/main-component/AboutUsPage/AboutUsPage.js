@@ -4,15 +4,15 @@ import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import StudentFunFact from '../../components/student-visa-components/StudentFunFact/StudentFunFact';
+// import StudentFunFact from '../../components/student-visa-components/StudentFunFact/StudentFunFact';
 // import Teams from '../../api/team'
 import PartnerSection from '../../components/PartnerSection';
-import ContactSection from '../../components/ContactSection';
+// import ContactSection from '../../components/ContactSection';
 import aboutImg from '../../images/about/about_img3.jpg'
 import aboutImg2 from '../../images/bg/mission.jpg'
 import aboutImg3 from '../../images/bg/vission.jpg'
 import Bg from '../../images/bg/team_bg.jpg'
-import NewsLatter from '../../components/NewsLatter/NewsLatter';
+// import NewsLatter from '../../components/NewsLatter/NewsLatter';
 // import Slider from 'react-slick';
 // import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 import TeamSection from '../../components/TeamSection/TeamSection';
