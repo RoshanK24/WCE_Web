@@ -20,7 +20,7 @@ const EduexpoFooter = (props) => {
                     <div className="col-lg-3 col-md-6 footer__custom-col mt-30">
                         <div className="text-white">
                             <p className='text-white'>Date & Time</p>
-                            <p>20 April 2025 | 9:00 AM - 5:00 PM</p>
+                            <p>27 April 2025 | 10:00 AM - 4:00 PM</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 footer__custom-col mt-30">
