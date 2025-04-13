@@ -92,10 +92,10 @@ const ExpoRegistration = () => {
                         {/* Event Date and Location */}
                         <div className="mt-6 bg-pink-600 rounded-md p-1 sm:p-2 md:p-4 flex justify-between items-center text-center">
                             <div className='ms-2'>
-                                <div className="text-yellow-400 font-bold text-xs sm:text-2xl md:text-3xl">20th</div>
+                                <div className="text-yellow-400 font-bold text-xs sm:text-2xl md:text-3xl">27th</div>
                                 <div className="text-white font-bold text-sm sm:text-2xl">April 2025</div>
                             </div>
-                            <div className='text-yellow-400 font-bold text-[0.75rem] sm:text-xl md:text-2xl'>9:00 AM - 5:00 PM</div>
+                            <div className='text-yellow-400 font-bold text-[0.75rem] sm:text-xl md:text-2xl'>10:00 AM - 4:00 PM</div>
                             <div className='me-2'>
                                 <div className="text-white text-xs sm:text-base">Taj Palace</div>
                                 <div className="text-white text-xs sm:text-base"> Nanakmatta</div>
@@ -175,7 +175,7 @@ const ExpoRegistration = () => {
                             type="email"
                             id="email"
                             name="email"
-                            required= {false}
+                            required={false}
                             value={formData.email}
                             onChange={handleChange}
                             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"

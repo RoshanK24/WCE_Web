@@ -71,7 +71,7 @@ const EduExpoHeader = () => {
                     <nav className="hidden space-x-4 me-2 md:flex">
                         <ul className='flex space-x-2 sm:space-x-8 font-bold'>
                             <li li><Link onClick={ClickHandler} to="/">Home</Link></li>
-                            <li li><Link onClick={ClickHandler} to="/eduexpo">EduExpo 2K25</Link></li>
+                            <li li><Link onClick={ClickHandler} to="/eduexpo" className='text-blue-900'>EduExpo 2K25</Link></li>
                             <li li><Link onClick={ClickHandler} to="/destinations">Destinations</Link></li>
                             {/* <li li><Link onClick={ClickHandler} to="/about">About us</Link></li> */}
                             {/* <li className="relative group">
