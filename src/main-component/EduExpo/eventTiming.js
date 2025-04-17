@@ -10,7 +10,7 @@ const EventTiming = () => {
     };
     return (
         <div className="flex justify-center items-center bg-gray-50">
-            <div className="flex flex-col  gap-3 md:flex-row items-start md:items-center justify-center p-6 rounded-lg w-full max-w-5xl px-auto">
+            <div className="flex flex-col  gap-3 md:flex-row items-start md:items-center justify-center p-6 rounded-lg w-full max-w-6xl px-auto">
                 {/* Date and Time Section */}
                 <div className="flex items-center bg-white px-4 rounded-lg shadow-md w-full md:w-1/2  py-2 sm:py-0  sm:min-h-28 border border-gray-200">
                     <div className="flex flex-col items-center bg-gray-200 px-3 py-1 sm:px-4 sm:py-2 rounded-lg">
