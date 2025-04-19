@@ -22,7 +22,7 @@ import ContactPage from '../ContactPage/ContactPage';
 // import StudyDestinationsPage from '../destination/destination';
 import Destinations from '../destination/destinations';
 import EduExpo from '../EduExpo/eduexpo';
-import ExpoRegistration from '../EduExpo/registration';
+// import ExpoRegistration from '../EduExpo/registration';
 
 const AllRoute = () => {
 
@@ -35,7 +35,7 @@ const AllRoute = () => {
           {/* <Route path="destination" element={<StudyDestinationsPage />} /> */}
           <Route path="destinations" element={<Destinations />} />
           <Route path="eduexpo" element={<EduExpo />} />
-          <Route path="eduexpo/registration" element={<ExpoRegistration />} />
+          <Route path="eduexpo/registration" element={<EduExpo />} />
           {/* <Route path="home-studient-visa" element={<HomePage2 />} />
           <Route path="home-travel-agency" element={<HomePage3 />} />
           <Route path="services" element={<ServicePage />} /> */}

@@ -14,13 +14,15 @@ const EduexpoFooter = (props) => {
                     <div className="col-lg-3 col-md-6 footer__custom-col mt-30">
                         <div className="text-white">
                             <p>Venue</p>
-                            <p>Taj Palace, Nanakmatta(262311), Uttarakhand</p>
+                            <p>Announcing soon</p>
+                            {/* <p>Taj Palace, Nanakmatta(262311), Uttarakhand</p> */}
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 footer__custom-col mt-30">
                         <div className="text-white">
                             <p className='text-white'>Date & Time</p>
-                            <p>27 April 2025 | 10:00 AM - 4:00 PM</p>
+                            <p>Announcing soon</p>
+                            {/* <p>27 April 2025 | 10:00 AM - 4:00 PM</p> */}
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 footer__custom-col mt-30">

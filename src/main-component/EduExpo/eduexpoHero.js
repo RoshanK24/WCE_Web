@@ -14,7 +14,7 @@ import wecWordlogo from '../../images/logo/wec_word.png';
 const EduExpoHero2 = (props) => {
 
     const ClickHandler = () => {
-        window.scrollTo(10, 0);
+        // window.scrollTo(10, 0);
     }
     return (
         <section className="py-6 md:py-24 hero relative">
@@ -64,8 +64,8 @@ const EduExpoHero2 = (props) => {
                             {/* Button */}
                             <div className="xb-hero--btn">
                                 <Slide direction="up" triggerOnce={false} duration={1500}>
-                                    <Link onClick={ClickHandler} to="registration" className="grd-btn bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-6 py-3 rounded-md font-bold shadow-lg">
-                                        Register Now
+                                    <Link onClick={ClickHandler} to="" className="grd-btn bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-6 py-3 rounded-md font-bold shadow-lg">
+                                        Announcing soon
                                     </Link>
                                 </Slide>
                             </div>

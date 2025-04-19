@@ -2,23 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import aIcon1 from '../../images/icon/h_star.png'
 import about from '../../images/about/about_img2.png'
-import shape1 from '../../images/shape/a_shape1.png'
+// import shape1 from '../../images/shape/a_shape1.png'
 import shape2 from '../../images/shape/a_shape2.png'
 
 const EduexpoAbout = (props) => {
     const ClickHandler = () => {
-        window.scrollTo(10, 0);
+        // window.scrollTo(10, 0);
     }
 
-    const downloadFile = (fileUrl, fileName) => {
-        const link = document.createElement("a");
-        link.href = fileUrl;
-        link.setAttribute("download", fileName || "file"); // fallback filename
-        link.setAttribute("target", "_blank"); // optional: opens in new tab
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
+    // const downloadFile = (fileUrl, fileName) => {
+    //     const link = document.createElement("a");
+    //     link.href = fileUrl;
+    //     link.setAttribute("download", fileName || "file"); // fallback filename
+    //     link.setAttribute("target", "_blank"); // optional: opens in new tab
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link);
+    // };
 
     return (
         <section className="about pos-rel py-[4rem]">
@@ -29,16 +29,20 @@ const EduexpoAbout = (props) => {
                 <p className='text-lg w-[100%] lg:w-[65%]'>Edu Expo 2K25 is an exhibition platform to link students with universities, colleges, as well as education consultants to help them towards studying abroad. From targeting students to converting them with value-driven engagement, expert advice, and exclusive opportunities.</p>
                 {/* </div> */}
                 <div className="row">
-                    <div className="col-xl-3 col-lg-4 mt-8">
+                    {/* <div className="col-xl-3 col-lg-4 mt-8">
                         <div className="about-btn">
-                            <Link onClick={ClickHandler} className="grd-btn" to="registration">Register Now</Link>
+                            <Link onClick={ClickHandler} className="grd-btn" to="">Register Now</Link>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-xl-5 col-lg-4 mt-8">
                         <div className="xb-about-content">
                             <p>Unlock Your Educational Journey Abroad: The Essential Student Visa GuideYour Gateway to Global Learning</p>
                             <Link onClick={ClickHandler} to="/about">Explore More Insight About us<i className="far fa-long-arrow-right"></i></Link>
                         </div>
+                    </div><div className="col-xl-3 col-lg-4 mt-8">
+                        {/* <div className="about-btn">
+                            <Link onClick={ClickHandler} className="grd-btn" to="">Register Now</Link>
+                        </div> */}
                     </div>
                     <div className="col-xl-4 col-lg-4 mt-30">
                         <div className="xb-about-img">
@@ -48,18 +52,18 @@ const EduexpoAbout = (props) => {
                 </div>
             </div>
             <div className="about-shape">
-                <div className="shape shape--1">
+                {/* <div className="shape shape--1">
                     <div className="shape-inner" data-parallax='{"x":-50,"y":-80}'>
                         <img src={shape1} alt="" />
                     </div>
-                </div>
+                </div> */}
                 <div className="shape shape--2">
                     <div className="shape-inner" data-parallax='{"x":50,"y":-80}'>
                         <img src={shape2} alt="" />
                     </div>
                 </div>
             </div>
-            <div className="container bg-white rounded-2xl py-6 px-4 sm:px-8 mt-4 max-w-2xl mx-auto">
+            {/* <div className="container bg-white rounded-2xl py-6 px-4 sm:px-8 mt-4 max-w-2xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2 text-gray-800">Download Event Info</h2>
                 <p className="text-gray-600 mb-6">
                     Get detailed insights about our upcoming events and opportunities. Choose your interest
@@ -81,7 +85,7 @@ const EduexpoAbout = (props) => {
                         🎓 Download Eduexpo Guide
                     </button>
                 </div>
-            </div>
+            </div> */}
 
         </section>
     )

@@ -15,7 +15,7 @@ import partner2 from '../../images/brand/partner/2.png'
 import partner3 from '../../images/brand/partner/3.png'
 import partner4 from '../../images/brand/partner/4.png'
 import partner5 from '../../images/brand/partner/5.png'
-import partner6 from '../../images/brand/partner/6.png'
+// import partner6 from '../../images/brand/partner/6.png'
 import partner7 from '../../images/brand/partner/7.png'
 import partner8 from '../../images/brand/partner/8.png'
 import partner9 from '../../images/brand/partner/9.png'
@@ -36,9 +36,9 @@ const partners = [
     {
         pImg: partner5,
     },
-    {
-        pImg: partner6,
-    },
+    // {
+    //     pImg: partner6,
+    // },
     {
         pImg: partner7,
     },
