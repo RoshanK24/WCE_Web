@@ -5,9 +5,9 @@ const EventTiming = () => {
     const handleMapClick = () => {
         // const lat = 29.0365;
         // const lng = 79.7181;
-        const url = `https://maps.app.goo.gl/1gqUmUub9ZbRZhLW8`;
+          // const url = `https://maps.app.goo.gl/1gqUmUub9ZbRZhLW8`;
         // const url = `https://www.google.com/maps?q=${lat},${lng}`;
-        window.open(url, '_blank');
+          // window.open(url, '_blank');
     };
     return (
         <div className="flex justify-center items-center bg-gray-50">
