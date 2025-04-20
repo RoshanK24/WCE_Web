@@ -21,7 +21,7 @@ const Footer = (props) => {
                             <ul className="footer__cta list-unstyled mt-20 flex flex-wrap items-start gap-0">
                                 <li className="ul_li me-4"><span><img src={icon1} alt="" /></span>+91 7618666001
                                 </li>
-                                <li className="ul_li "><span><img src={icon2} alt="" /></span>worldconnectedu@gmail.com
+                                <li className="ul_li "><span><img src={icon2} alt="" /></span>info@worldconnectedu.com
                                 </li>
                             </ul>
                         </div>
@@ -93,7 +93,7 @@ const Footer = (props) => {
                 </div>
                 <div className="footer__copyright ul_li_between">
                     <div className="footer__copyright-text mt-15">
-                        Copyright © 2024 World Connect Education All rights reserved.
+                        Copyright © 2024 World Connect Education. All rights reserved.
                     </div>
                     {/* <div className="footer__copyright-img mt-20">
                         <img src={icon3} alt="" />

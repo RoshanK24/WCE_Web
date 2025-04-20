@@ -8,7 +8,7 @@ import FunFactSection from '../../components/FunFact/FunFact';
 import CountrySection from '../../components/CountrySection/CountrySection';
 import TeamSection from '../../components/TeamSection/TeamSection';
 // import FaqSection from '../../components/FaqSection/FaqSection';
-import Testimonial from '../../components/Testimonial/Testimonial';
+// import Testimonial from '../../components/Testimonial/Testimonial';
 // import BlogSection from '../../components/BlogSection/BlogSection';
 // import NewsLatter from '../../components/NewsLatter/NewsLatter';
 // import ContactSection from '../../components/ContactSection';
@@ -26,7 +26,7 @@ const HomePage = () => {
                 <Hero />
                 {/* <ServiceSection /> */}
                 <WhyChooseUsHomePage />
-                <Testimonial />
+                {/* <Testimonial /> */}
                 <PartnerSection />
                 {/* <About /> */}
                 <FunFactSection />

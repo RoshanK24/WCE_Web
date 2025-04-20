@@ -51,7 +51,7 @@ const StudentFooter = (props) => {
                 </div>
                 <div className="copyright-area mt-30 ul_li_between">
                     <div className="copyright-text mt-20">
-                        Copyright © 2024 WCE. <span>All rights reserved.</span>
+                        Copyright © 2025 World Connect Education Private Limited. <span>All rights reserved.</span>
                     </div>
                     <ul className="footer-links ul_li_right mt-20">
                         <li><Link onClick={ClickHandler} to="/contact">Privacy Policy</Link></li>

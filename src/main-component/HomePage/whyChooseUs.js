@@ -4,7 +4,7 @@ import about from '../../images/about/about_img.png'
 const WhyChooseUsHomePage = (props) => {
 
     return (
-        <section className="about pos-rel pb-40 ">
+        <section className="about pos-rel ">
             <div className="container why-choose-us-section py-10 md:py-16">
                 <h3 className="text-2xl md:text-3xl font-bold mb-8 mx-2">Why Choose Us?</h3>
                 <h4 className="text-xl md:text-2xl font-semibold mb-10 mx-2">Unlock Global Education Opportunities with WCE</h4>
